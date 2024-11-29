@@ -87,3 +87,13 @@ body {
 .content p{
     color: rgb(255, 255, 255);
 }
+
+.title h1 {
+    font-family: 'Mountains of Christmas', cursive;
+    color: #90EE90;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@700&display=swap');

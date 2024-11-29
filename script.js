@@ -12,11 +12,10 @@
         if (itemNumber > currentDay && currentMonth == 12 && currentYear == 2024) {
             // Remove onclick handlers and add visual indication that item is disabled
             item.removeAttribute('onclick');
-/*             item.style.cursor = 'default';
-            item.style.opacity = '0.5'; */
+            item.style.cursor = 'default';
             item.style.fontSize = '40px';
         }else{
-            item.style.cursor = 'default';
+            item.style.cursor = 'pointer';
             item.style.opacity = '1';
             item.style.fontSize = '40px';
         }
